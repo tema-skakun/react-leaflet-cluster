@@ -7,4 +7,5 @@
 /examples/custom-marker-cluster/.yalc
 /examples/ten-thousand-marker/.yalc
 .yalc
+.idea
 npm-debug.log*
