@@ -45,6 +45,9 @@ function getPropsAndEvents(props: MarkerClusterControl) {
       clusterProps = { ...clusterProps, [propName]: prop }
     }
   })
+
+  console.log("clusterEvents = ", clusterEvents)
+
   return { clusterProps, clusterEvents }
 }
 
